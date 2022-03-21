@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.header{
+    display: flex;
+    height: 5rem;
+    background-color: gray;
+    justify-content: space-between;
+}
+
+.header .imagem{
+    height: 4rem;
+}
+
+.personagens{
+
+    background-color: rgba(50, 218, 17, 0.8);
+    background-color: rgba(32, 35, 41, 0.7);
+    border: 1.5rem 1.5rem;
+    border-radius: 20px;
+    margin: 1.5rem;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+
+
+.header .navegacao a{
+    
+    background-color: rgba(50, 218, 17, 0.8);
+    text-align: center;
+    display:inline-flex;
+    align-items: center;
+    border: 50px;   
+    height: 60%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+main{
+    display: flex;
+    background-color: rgb(204, 255, 204);
+}
+
+.container{
+    flex-direction: column;
+    border-radius: 1rem;
+    display: flex;
+    width: 100%;
+    border: 20px;
+}
+
+.rodape{
+    padding: 2rem 0 1.5rem 0;
+    background-color: gray;
+}
+
+.rodape .navegacao{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rodape .redes-sociais{
+    display: flex;
+
+}
+
+.rodape .redes-sociais a{
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    font-size: 30px;
+    border: 1px solid #111;
+    border-radius: 50%;
+    padding: 15px;
+    width: 65px;
+    transition: 0.3s ease-in-out;
+}
+
+.rodape .redes-sociais a:hover{
+    background-color: #1ED760;
+}
+
+.rodape .navegacao .logo .imagem{
+    width: 100px;
+}
+
+.rodape .copyright{
+    margin-top: 1.5rem;
+    text-align: center;
+}
